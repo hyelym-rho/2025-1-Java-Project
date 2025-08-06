@@ -52,10 +52,10 @@ def get_user(user_id):
 
     # 테스트용 더미 유저 데이터
     dummy_user = {
-        "id": "2022120170",
+        "id": "2022100000",
         "password": "1234",
-        "name": "노혜림",
-        "phone": "010-4557-0536"
+        "name": "홍길동",
+        "phone": "010-1234-5678"
     }
 
 
@@ -393,3 +393,4 @@ def get_server_time():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8888)
+
