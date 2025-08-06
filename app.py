@@ -36,7 +36,7 @@ def login():
         print("🔥 로그인 시도:", user_id, password)
 
         # 테스트용 로그인 검증 로직 (현재 DB구현까지는 X)
-        if user_id == "2022120170" and password == "1234":
+        if user_id == "2022100000" and password == "1234":
             return jsonify(success="true", message="로그인 성공!")
         else:
             return jsonify(success="false", message="아이디 또는 비밀번호가 틀렸습니다.")
@@ -393,5 +393,6 @@ def get_server_time():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8888)
+
 
 
