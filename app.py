@@ -70,7 +70,7 @@ def find_user_by_phone():
         phone = data.get("phone")
 
         fake_users = [
-            {"name": "노혜림", "phone": "010-4557-0536", "id": "2022120170"},
+            {"name": "홍길동", "phone": "010-1234-5678", "id": "2022100000"},
         ]
 
         user = next((u for u in fake_users if u["name"] == name and u["phone"] == phone), None)
@@ -393,4 +393,5 @@ def get_server_time():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8888)
+
 
