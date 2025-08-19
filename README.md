@@ -13,8 +13,8 @@ https://github.com/kakao-link-js/CR_Simulator
 가 있습니다. 
 <img width="1431" height="999" alt="image" src="https://github.com/user-attachments/assets/3cace0ec-7f58-47f0-9928-ff906603be83" />
 <초기 화면>
-  수업 내용 중 기능 추가가 필요하다하여
-- 서버 시간 확인 기능을 추가하였습니다.
+  수업 내용 중 기능 추가가 필요하다 하여 네이비즘 / 타임시커 등의 서버 시간 확인 기능을 참조해
+- 수강 신청 탭 내 서버 시간 확인 기능을 추가하였습니다.
 <img width="1022" height="747" alt="image" src="https://github.com/user-attachments/assets/0605c1ca-b6c5-4050-81fe-89b1212bcab2" />
 <위와 같이 수강 신청 탭에서 확인이 가능합니다.(app.py 내 실행 코드 작성)>    
 
